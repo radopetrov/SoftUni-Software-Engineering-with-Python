@@ -1,0 +1,10 @@
+x1 = float(input())
+y1 = float(input())
+x2 = float(input())
+y2 = float(input())
+width = abs(x1 - x2)
+height = max(y1, y2) - min(y1, y2)
+area = width * height
+perimeter = 2 * height + 2 * width
+print(f"Area = {area}")
+print(f"Perimeter = {perimeter}")
